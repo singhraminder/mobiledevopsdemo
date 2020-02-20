@@ -18,7 +18,7 @@ android {
         }
     }
     lintOptions {
-        tasks.lint.enabled = false
+        tasks.lint.enabled = true
         checkReleaseBuilds false
     }
     dexOptions {
